@@ -26,7 +26,7 @@ function AllMeetupsPage() {
         <h1>All Meetups</h1>
 
         {DUMMY_DATA.map((meetup) => {
-            
+            return <li>{meetup.title}</li>;
         })}
         </div>
 
