@@ -1,3 +1,5 @@
+import MeetUpList from "../componenets/meetups/MeetUpList";
+
 const DUMMY_DATA = [
     {
         id: 'm1',
@@ -24,10 +26,7 @@ function AllMeetupsPage() {
         <div>
         <div>Just saying hello</div>
         <h1>All Meetups</h1>
-
-        {DUMMY_DATA.map((meetup) => {
-            return <li>{meetup.title}</li>;
-        })}
+            <MeetUpList meetups={ DUMMY_DATA}/>
         </div>
 
     )
