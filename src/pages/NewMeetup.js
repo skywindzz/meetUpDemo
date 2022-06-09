@@ -1,6 +1,11 @@
+import NewMeetUpForm from "../componenets/meetups/NewMeetUpForm";
+
 function NewMeetup() {
     return (
-        <div>Just waving to you</div>
+        <section>
+            <h1>Add new meetup</h1>
+            <NewMeetUpForm />
+        </section>
     )
 }
 
